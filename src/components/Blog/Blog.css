@@ -1,0 +1,15 @@
+.blog-banner{
+    background-image: linear-gradient(rgba(97, 97, 97, 0.3), rgba(97,97,97,0.3)), url('https://klbtheme.com/medibazar/wp-content/uploads/2020/10/breadcrumb.jpg');
+    height: 311px;
+    background-position: center;
+    padding: 130px 70px;
+}
+.blog-banner > h1{
+    font-size: 45px;
+}
+.blog-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #4E97FD;
+}

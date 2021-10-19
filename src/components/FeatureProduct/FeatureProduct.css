@@ -1,0 +1,20 @@
+.feature-product-heading > p{
+    color: gray;
+}
+.feature-product-btn{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.feature-product-btn:hover{
+    color: #4E97FD;
+    border-bottom: 2px solid #4E97FD;
+}
+.product-card{
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+.product-price{
+    color: #e4573d;
+    font-size: 18px;
+    font-weight: 600;
+}

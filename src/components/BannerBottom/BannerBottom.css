@@ -1,0 +1,34 @@
+.banner-bottom{
+    position: relative;
+}
+.banner-bottom-desc{
+    position: absolute;
+    top: 10%;
+    left: 24%;
+
+}
+.banner-bottom-desc > h4{
+    color: #838383;
+}
+.banner-bottom-desc > button{
+    color: #e4573d;
+    border: 0;
+    border-bottom: 2px solid #e4573d;
+    transition: 0.3s;
+}
+.banner-bottom-desc > button:hover{
+    color: #4E97FD;
+    border-bottom: 2px solid #4E97FD;
+}
+.banner-bottom-offer{
+    width: 95px;
+    height: 95px;
+    background-color: #FEBD00;
+    line-height: 3px;
+    position: absolute;
+    top: 34%;
+    left: 16%;
+}
+.banner-bottom-offer > P{
+    font-size: 22px;
+}

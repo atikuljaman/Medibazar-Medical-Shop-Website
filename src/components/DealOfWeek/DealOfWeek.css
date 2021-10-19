@@ -1,0 +1,68 @@
+.deal-container{
+    background-image: url('https://klbtheme.com/medibazar/wp-content/uploads/2020/10/deal-bg.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.deal-offer > h3{
+    color: #333333;
+}
+.deal-offer > p{
+    color: gray;
+}
+.deal-detail > h2{
+     font-size: 40px;
+     color: #333333;
+}
+.deal-detail > h2 > span{
+    color: #4E97FD;
+}
+.deal-detail > p{
+    color: #E4573D;
+    font-size: 20px;
+}
+
+.deal-detail > button{
+    width: 150px;
+    height: 45px;
+    background-color: #4E97FD;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.deal-detail > button:hover{
+    background-color: #E4573D;
+}
+
+.date, .hour, .minute, .second{
+    color: #333333;
+}
+.date{
+    border-bottom: 3px solid #FEBD00;
+}
+.hour{
+    border-top: 3px solid #E4573D;
+}
+.minute{
+    border-bottom: 3px solid #4E97FD;
+}
+.second{
+    border-top: 3px solid #FF7FE1;
+}
+.date > p{
+    color: gray;
+    font-size: 14px;
+}
+.hour > p{
+    color: gray;
+    font-size: 14px;
+}
+.minute > p{
+    color: gray;
+    font-size: 14px;
+}
+.second > p{
+    color: gray;
+    font-size: 14px;
+}

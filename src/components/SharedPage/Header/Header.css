@@ -1,0 +1,80 @@
+
+.header-bottom-border{
+    border-bottom: 1px solid #eaeaea;
+    padding: -15px 0;
+}
+.header-top-heading{
+    font-size: 14.5px;
+    color: gray;
+}
+.header-top-heading > span{
+    color: #4e97fd;
+}
+.header-top-number{
+    background-color: #4e97fd;
+    color: white;
+    margin-left: 25px;
+}
+.header-top-right-navlink{
+    color: gray;
+}
+.logout-btn{
+    background-color: #4e97fd;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+}
+.header-logo{
+    width: 195px;
+}
+.user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.navLink{
+    color: gray;
+}
+.search-box{
+    background-color: #F8F8F8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 50%;
+}
+.search-box > input{
+    outline: none;
+    width: 95%;
+}
+
+.search-box > button{
+    color: gray;
+}
+.cart-box{
+    position: relative;
+}
+.cart-length{
+    background-color: #4e97fd;
+    color: white;
+    width: 25px;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+}
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+    .header-top-heading{
+        display: none;
+    }
+    .header-top{
+        display: flex;
+        justify-content: center;
+    } 
+    .header-top-number{
+    margin: 5px 0 10px 0;
+    }
+    .search-box{
+        width: 100%;
+    }
+    .search-box > input{
+        width: 85%;
+    }
+}

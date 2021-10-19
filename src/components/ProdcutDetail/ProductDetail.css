@@ -1,0 +1,33 @@
+.product-img{
+    width: 554px;
+    border: 2px solid rgba(211, 211, 211, 0.527);
+}
+.rating-icon{
+    color: #F6BC3E;
+}
+.price{
+    color: #E4573D;
+    font-weight: 600;
+}
+.product-quantity{
+    width: 170px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: #FFF1F0;
+}
+.product-quantity > button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.3s;
+}
+.product-quantity > button:hover{
+    background-color: #E4573D;
+    color: white;
+}
+.add-to-cart-btn{
+    width: 170px;
+    height: 55px;
+    background-color: #E4573D;
+}

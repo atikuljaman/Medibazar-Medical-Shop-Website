@@ -1,0 +1,83 @@
+.carousel-item-detail > h3{
+    color:#003242;
+    font-size: 30px;
+}
+.carousel-item-detail > h1{
+    font-size: 65px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 18px;
+}
+.carousel-item-detail > p{
+        font-size: 18px;
+    color: #003242;
+    line-height: 32px;
+    margin-bottom: 24px;
+    width: 300px;
+}
+.carousel-item-detail > button{
+    width: 180px;
+    height: 50px;
+    background-color: #4E97FD;
+    transition: 0.4s;
+}
+.carousel-item-detail > button:hover{
+    background-color: #E4573D;
+    transform: scale(1.03);
+}
+.banner-right{
+    position: relative;
+   
+}
+.banner-right-desc{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+.banner-right-desc > span{
+    font-size: 24px;
+    color: #838383;
+    font-weight: 500;
+}
+.banner-right-desc > h2{
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 7px;
+    margin-bottom: 26px;
+}
+.banner-right-desc > button{
+    color: #e4573d;
+    border: 0;
+    border-bottom: 2px solid #e4573d;
+    transition: 0.3s;
+}
+.banner-right-desc > button:hover{
+    color: #4E97FD;
+    border-bottom: 2px solid #4E97FD;
+}
+@media  only screen and (min-width: 320px) and (max-width: 768px) {
+    
+    .carousel{
+        padding: 10px 7px;
+    } 
+    .carousel-item-detail > h3{
+        font-size: 20px;
+        margin: 10px 0 0 0;
+    }
+    .carousel-item-detail > h1{
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .carousel-item-detail > p{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+    .carousel-item-detail > button{
+        width: 120px;
+        font-size: 14px;
+        height: 35px;
+    }
+}
